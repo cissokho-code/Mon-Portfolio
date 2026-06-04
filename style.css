@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: serif;
+}
+
+
+header {
+    background-color: #1f2937;
+    padding: 20px 50px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.menu span {
+    color: #f7df1e;
+}
+
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #f7df1e;
+}
+
+.hero {
+    background-image: url('image/h3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.para {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.para h2,
+.para p {
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.para button {
+    width: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1f2937;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.para button:hover {
+    background-color: #f7df1e;
+    color: #000;
+}
+
+.reseaux {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+
+.fa-facebook {
+    color: #1877f2;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.fa-whatsapp {
+    color: #25d366;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+
+ .fa-github {
+    font-size: 30px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.fa-facebook:hover {
+    color: #f7df1e;
+    transform: scale(2.2);
+}
+
+.fa-whatsapp:hover {
+    color: #f7df1e;
+    transform: scale(2.2);
+}
+
+.fa-github:hover {
+    color: #f7df1e;
+    transform: scale(2.2);
+}
+
+/* section competence */
+.competence {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 40px;
+    margin: 20px 40px;
+    border-radius: 10px;
+    background-color: #1f2937;
+}
+
+.competence h2 {
+    font-size: 25px;
+    color: #ffffff;
+    padding: 40px;
+    margin-top: 0;
+    text-transform: capitalize;
+   
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+
+}
+
+.carte-icone {
+    background-color: #ffffff;
+    padding: 40px;
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.carte-icone:hover{
+transform: scale(1.1);
+}
+
+.fa-html5 {
+    font-size: 50px;
+    color: #E34F26;
+}
+
+.fa-css {
+    color: #1572B6;
+    font-size: 50px;
+}
+
+.fa-square-github {
+    color: #181717;
+    font-size: 50px;
+}
+
+/* lq pqrtie du mes projets */
+
+.Mes-projets {
+    padding: 50px 20px;
+    text-align: center;
+    border: 1px solid;
+        padding: 40px;
+        margin: 20px 40px;
+        border-radius: 10px;
+}
+
+.Mes-projets h1 {
+    padding: 15px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.tous-carte {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.carte {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1f2937;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carte i {
+    font-size: 60px;
+    color: #f7df1e;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.carte i:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+/* la partie contact */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f2937;
+    flex-direction: column;
+    border: 1px solid;
+        padding: 40px;
+        margin: 20px 40px;
+        border-radius: 15px;
+}
+
+.contact h2 {
+    font-size: 25px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    background-color: rgba(24, 23, 23,0.5);
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 2px 1px 3px;
+
+}
+
+input:hover {}
+
+textarea {
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px;
+    padding: 15px;
+    width: 80%;
+}
+
+.bouton {
+    width: 50%;
+    border: none;
+    box-shadow: 2px 1px 3px;
+    background-color: #1877f2;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bouton:hover {
+    background-color: #f7df1e;
+}
+
+::placeholder {
+    color: black;
+    
+}
+
+/* la partie footer */
+.tous-les-footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    background-color: #1f2937;
+    padding: 100px;
+}
+.logo-footer{
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+}
+.logo-footer h2,p{
+    color: #ffffff;
+    
+}
+ .logo-footer span {
+     color: #f7df1e;
+ }
+
+ .menu-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+  .menu-footer ul{
+    display: flex;
+        flex-direction: column;
+        gap: 30px;
+        list-style: none;
+  }
+.menu-footer a{
+   color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.menu-footer a:hover{
+    color: #f7df1e;
+}
+.reseaux-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.reseaux-footer i{
+    color: #ffffff;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.reseaux-footer i:hover{
+    transform: scale(1.1);
+    color: #f7df1e;
+}
+/* la pqrtie responsive en mobile */
+@media screen and (max-width:780px) {
+    body{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       width: 100%;
+    }
+    /* menu du responsive */
+    .menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+.menu h1{
+    padding: 10px;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.menu a{
+    font-size: 16px;
+}
+/* hero du responsive */
+  .hero{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+   .para{
+    font-size: 16px;
+    gap: 2px;
+   }
+   /* la partie competence du responsive ,Mes-projets contact*/
+   .competence,
+   .Mes-projets,
+   .contact{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+   }
+   .competence h2{
+    font-size: 16px;
+   }
+   .icone,
+   .tous-carte{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   form{
+    width: 90%;
+   }
+   
+/* la partie footer du responsive */
+.tous-les-footer{
+display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+}

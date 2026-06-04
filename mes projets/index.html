@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .calcul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            border-radius: 20px;
+        }
+
+        .glob {
+            background-color: rgba(30, 24, 24, 0.8);
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 1px 0 20px rgba(0, 0, 0, 0.5);
+
+
+        }
+
+        .ecran {
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            font-size: 40px;
+            text-align: right;
+            color: white;
+
+        }
+
+        .num {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 15px;
+            font-size: 26px;
+            padding: 20px;
+        }
+
+        .num div {
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+            border-radius: 70px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        .autre-c {
+            background-color: rgb(145, 140, 133);
+            transition: 1s;
+            cursor: pointer;
+        }
+
+        .orange {
+            background-color: orange;
+            transition: 1s;
+            cursor: pointer;
+        }
+
+        .blanch {
+            background-color: rgba(0, 0, 0, 0.3);
+            transition: 1s;
+            cursor: pointer;
+        }
+
+        .autre-c:hover {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .orange:hover {
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+
+        .blanch:hover {
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calcul">
+        <div class="glob">
+            <div class="ecran">0</div>
+            <div class="num">
+                <div class="autre-c">AC</div>
+                <div class="autre-c">±</div>
+                <div class="autre-c">%</div>
+                <div class="orange">÷</div>
+                <div class="blanch">7</div>
+                <div class="blanch">8</div>
+                <div class="blanch">9</div>
+                <div class="orange">*</div>
+                <div class="blanch">4</div>
+                <div class="blanch">5</div>
+                <div class="blanch">6</div>
+                <div class="orange">-</div>
+                <div class="blanch">1</div>
+                <div class="blanch">2</div>
+                <div class="blanch">3</div>
+                <div class="orange">+</div>
+                <div class="blanch">.</div>
+                <div class="blanch">0</div>
+                <div class="blanch">,</div>
+                <div class="orange">=</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
