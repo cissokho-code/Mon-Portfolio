@@ -320,7 +320,7 @@ textarea {
     flex-direction: column; 
     gap: 30px;
 }
-.logo-footer h2,p{
+.logo-footer h1,p{
     color: #ffffff;
     
 }
@@ -388,6 +388,9 @@ textarea {
 }
 /* hero du responsive */
   .hero{
+    background-image: url('image/h1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
