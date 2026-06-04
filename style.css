@@ -362,7 +362,7 @@ textarea {
     color: #f7df1e;
 }
 /* la pqrtie responsive en mobile */
-@media screen and (max-width:780px) {
+@media screen and (max-width:576px) {
     body{
        display: flex;
        flex-direction: column;
@@ -405,6 +405,9 @@ textarea {
     flex-direction: column;
     width: 70%;
    }
+   .carte{
+    width: 100%;
+   }
    .competence h2{
     font-size: 16px;
    }
@@ -416,6 +419,9 @@ textarea {
    }
    form{
     width: 90%;
+   }
+   .bouton{
+    width: 60%;
    }
    
 /* la partie footer du responsive */
