@@ -430,6 +430,7 @@ p {
     .contact {
         width: 90%;
         margin: auto;
+        margin-top: 10px;
     }
 
     .carte {
@@ -457,7 +458,7 @@ p {
     }
 
     .bouton {
-        width: 90%;
+         width: 90%; 
     }
 
     /* la partie footer du responsive */
@@ -466,7 +467,7 @@ p {
         flex-direction: column;
         width: 100%;
         padding: 30px;
-        gap: 30px;
+        margin-top: 10px;
 
     }
 
