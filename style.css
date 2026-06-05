@@ -323,6 +323,7 @@ textarea {
 .logo-footer h1,
 p {
     color: #ffffff;
+    text-transform: capitalize;
 
 }
 
@@ -460,7 +461,7 @@ p {
         width: 90%;
     } */
     input[type="submit"]{
-        width: 90%;
+        width: 100%;
         font-size: 12px;
     }
 
