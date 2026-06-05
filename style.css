@@ -9,7 +9,6 @@ body {
     font-family: serif;
 }
 
-
 header {
     background-color: #1f2937;
     padding: 20px 50px;
@@ -46,9 +45,9 @@ header {
     font-weight: bold;
     transition: 0.3s;
 }
-
 .menu a:hover {
     color: #f7df1e;
+    background-color: rgba(0, 0, 0,0.2);
 }
 
 .hero {
@@ -457,8 +456,12 @@ p {
         width: 90%;
     }
 
-    .bouton {
-         width: 90%; 
+    /* .bouton {
+        width: 90%;
+    } */
+    input[type="submit"]{
+        width: 90%;
+        font-size: 12px;
     }
 
     /* la partie footer du responsive */
