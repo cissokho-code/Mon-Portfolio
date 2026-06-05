@@ -113,7 +113,7 @@ header {
 }
 
 
- .fa-github {
+.fa-github {
     font-size: 30px;
     color: #ffffff;
     transition: 0.3s;
@@ -153,7 +153,7 @@ header {
     padding: 40px;
     margin-top: 0;
     text-transform: capitalize;
-   
+
 }
 
 .icone {
@@ -173,8 +173,9 @@ header {
     border-radius: 10px;
     transition: 0.4s;
 }
-.carte-icone:hover{
-transform: scale(1.1);
+
+.carte-icone:hover {
+    transform: scale(1.1);
 }
 
 .fa-html5 {
@@ -198,9 +199,9 @@ transform: scale(1.1);
     padding: 50px 20px;
     text-align: center;
     border: 1px solid;
-        padding: 40px;
-        margin: 20px 40px;
-        border-radius: 10px;
+    padding: 40px;
+    margin: 20px 40px;
+    border-radius: 10px;
 }
 
 .Mes-projets h1 {
@@ -248,9 +249,9 @@ transform: scale(1.1);
     background-color: #1f2937;
     flex-direction: column;
     border: 1px solid;
-        padding: 40px;
-        margin: 20px 40px;
-        border-radius: 15px;
+    padding: 40px;
+    margin: 20px 40px;
+    border-radius: 15px;
 }
 
 .contact h2 {
@@ -265,7 +266,7 @@ form {
     align-items: center;
     flex-direction: column;
     width: 500px;
-    background-color: rgba(24, 23, 23,0.5);
+    background-color: rgba(24, 23, 23, 0.5);
     border-radius: 10px;
 }
 
@@ -278,8 +279,6 @@ input {
     box-shadow: 2px 1px 3px;
 
 }
-
-input:hover {}
 
 textarea {
     border-radius: 10px;
@@ -303,11 +302,11 @@ textarea {
 
 ::placeholder {
     color: black;
-    
+
 }
 
 /* la partie footer */
-.tous-les-footer{
+.tous-les-footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -315,123 +314,160 @@ textarea {
     background-color: #1f2937;
     padding: 100px;
 }
-.logo-footer{
+
+.logo-footer {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     gap: 30px;
 }
-.logo-footer h1,p{
-    color: #ffffff;
-    
-}
- .logo-footer span {
-     color: #f7df1e;
- }
 
- .menu-footer{
+.logo-footer h1,
+p {
+    color: #ffffff;
+
+}
+
+.logo-footer span {
+    color: #f7df1e;
+}
+
+.menu-footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
- }
-  .menu-footer ul{
+}
+
+.menu-footer ul {
     display: flex;
-        flex-direction: column;
-        gap: 30px;
-        list-style: none;
-  }
-.menu-footer a{
-   color: #ffffff;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu-footer a {
+    color: #ffffff;
     text-decoration: none;
     font-size: 16px;
 }
-.menu-footer a:hover{
+
+.menu-footer a:hover {
     color: #f7df1e;
 }
+
 .reseaux-footer {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
 }
-.reseaux-footer i{
+
+.reseaux-footer i {
     color: #ffffff;
     font-size: 25px;
     transition: 0.3s;
 }
-.reseaux-footer i:hover{
+
+.reseaux-footer i:hover {
     transform: scale(1.1);
     color: #f7df1e;
 }
+
 /* la pqrtie responsive en mobile */
 @media screen and (max-width:576px) {
-    body{
-       display: flex;
-       flex-direction: column;
-       flex-wrap: wrap;
-       width: 100%;
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
     }
+
     /* menu du responsive */
-    .menu{
+    .menu {
+        /* display: flex; */
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .menu h1 {
+        padding: 10px;
+    }
+
+    .menu ul {
+        /* display: flex; */
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    /* hero du responsive */
+    .hero {
+        background-image: url('image/h1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 50px 20px;
+
+    }
+
+    .para h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .para p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /* la partie competence du responsive ,Mes-projets contact*/
+    .competence,
+    .Mes-projets,
+    .contact {
+        width: 90%;
+        margin: auto;
+    }
+
+    .carte {
+        width: 100%;
+    }
+
+    .competence h2 {
+        font-size: 16px;
+    }
+
+    .icone,
+    .tous-carte {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
-.menu h1{
-    padding: 10px;
-}
-.menu ul{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-.menu a{
-    font-size: 16px;
-}
-/* hero du responsive */
-  .hero{
-    background-image: url('image/h1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-   .para{
-    font-size: 16px;
-    gap: 2px;
-   }
-   /* la partie competence du responsive ,Mes-projets contact*/
-   .competence,
-   .Mes-projets,
-   .contact{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-   }
-   .carte{
-    width: 100%;
-   }
-   .competence h2{
-    font-size: 16px;
-   }
-   .icone,
-   .tous-carte{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   }
-   form{
-    width: 90%;
-   }
-   .bouton{
-    width: 60%;
-   }
-   
-/* la partie footer du responsive */
-.tous-les-footer{
-display: flex;
-    flex-direction: column;
-    width: 100%;
-}
+
+    form {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 90%;
+    }
+
+    .bouton {
+        width: 60%;
+    }
+
+    /* la partie footer du responsive */
+    .tous-les-footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 30px;
+        gap: 30px;
+
+    }
 
 }
